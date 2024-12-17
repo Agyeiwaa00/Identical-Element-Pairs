@@ -1,16 +1,11 @@
 ﻿# Identical-Element-Pairs
 
 # ====================== CODE DOCUMENTATION ================================ 
-# In this code , the P_count is variable which is used to store the total numbers of identical pair found in the num array; The initiali value is zero 
-
+# In this code , the P_count is variable which is used to store the total numbers of identical pair found in the num array; The initial value is zero 
 # A variable named fSet is used to initialise dictionary and it used used to keep track of how many times each number appears in the nums array 
-
 # The for loop iterates over each number (num) in the nums array
-
 # Line checks if the current number num is already a key in the fSet dictionary.If the number num is already in the dictionary, this line increments its value by 1 and if num is not already a key in the num_count dictionary, it is set to 1 indicating that this is the first time this number has been encountered.
-
 # A new loop iterates over each frequency count in the dictionary fSet and checks if the frequency count is greater than 1
-
 # If the frequency is greater than 1, line 54 calculates the number of pairs that can be formed from count occurrences of the same number. The formula (count * (count - 1)) // 2 is the combination formula for choosing 2 items from count items. The result is then added to P_count
 
 # Finally, the function returns the total count of such pairs P_count.
